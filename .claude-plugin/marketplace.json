@@ -1,0 +1,14 @@
+{
+  "name": "hyperfocus",
+  "description": "hyperfocus: a Claude Code plugin that keeps each session on one task.",
+  "owner": {
+    "name": "YOUR_GITHUB_USERNAME"
+  },
+  "plugins": [
+    {
+      "name": "hyperfocus",
+      "source": "./",
+      "description": "Keeps a Claude Code session on one task: records the session's task and has Claude flag prompts that drift into a different one."
+    }
+  ]
+}
